@@ -3,3 +3,37 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+.header{
+    font-size: 25px;
+    background-color: white;
+    padding: 10px 20px
+}
+
+.title{
+    vertical-align: top;
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+}
+/* FINE HEADER*/
+
+.sfondo{
+    background-color: grey;
+}
+
+/* ADD BUTTON */
+
+.task{
+    background-color: rgb(54, 149, 204);
+    color: rgba(255, 255, 255, 0.829);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.section{
+    background-color: white;
+    color: rgba(128, 128, 128, 0.486);
+    padding: 7px;
+    border-radius: 5px;
+}
