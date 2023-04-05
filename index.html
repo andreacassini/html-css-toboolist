@@ -6,14 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
         <style>
             body {
               background-color: rgba(211, 211, 211, 0.322);
             }
-            </style>
+        </style>
     </head>
     <body>
         <!--HEADER-->
@@ -25,15 +22,55 @@
         </header>
         <!--FINE HEADER-->
         <!--MAIN-->
-        <main>
-            <button class="task">Add Task</button>
-            <button class="section">Add Section</button>
+        <main class="main">
+            <div class="buttons">
+                <button class="task">Add Task</button>
+                <button class="section">Add Section</button>
+            </div>
+            <div class="list">
+                <ul>
+                    <li class="big-list">&#9207;New Task
+                        <ul> 
+                            <li class="little-list">
+                                <span class="check">&check;</span> Quarterly Newsletter <span class="blu">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="big-list">&#9207;Today
+                        <ul> 
+                            <li class="little-list">
+                                <span class="check">&check;</span> Recruiting blog post <span class="blu">Editorial</span>
+                            </li>
+                            <li class="little-list">
+                                <span class="check">&check;</span> Mobile app luaunch <span class="viola">Q1 Goals</span>
+                            </li> 
+                            <li class="little-list">
+                                <span class="cross">&Cross;</span> Interview John H. <span class="verde">Recruiting</span>
+                            </li>
+                            <li class="little-list">
+                                <span class="check">&check;</span> Summit update to mobilie storefronts <span class="arancione">Mobile</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="big-list">&#9207;Upcoming
+                        <ul> 
+                            <li class="little-list">
+                                <span class="cross">&Cross;</span> Schedule meeting with Alex
+                            </li>
+                            <li class="little-list">
+                                <span class="check">&check;</span> Homepage refresh <span class="rosa">Website</span>
+                            </li>
+                            <li class="little-list">
+                                <span class="check">&check;</span> Onboard new Sales team members <span class="verdino">Sales</span>
+                            </li> 
+                            <li class="little-list">
+                                <span class="check">&check;</span> Review editorial calendar <span class="blu">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </main>
         <!--FINE MAIN-->
-        <!--FOOTER-->
-        <footer>
-
-        </footer>
-        <!--FINE FOOTER-->
     </body>
 </html>

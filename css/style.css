@@ -14,7 +14,7 @@
 .title{
     vertical-align: top;
     font-size: 40px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: sans-serif;
 }
 /* FINE HEADER*/
 
@@ -29,6 +29,7 @@
     color: rgba(255, 255, 255, 0.829);
     padding: 7px;
     border-radius: 5px;
+    border-color: transparent;
 }
 
 .section{
@@ -36,4 +37,112 @@
     color: rgba(128, 128, 128, 0.486);
     padding: 7px;
     border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.199);
+}
+
+.buttons{
+    background-color: white;
+    margin-top: 50px;
+    padding-left: 40px;
+    height: 60px;
+    padding-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main{
+    width: 70%;
+    margin: 0 auto; 
+    font-family: sans-serif;   
+}
+
+.list{
+    background-color: white;
+    margin-top: 2px;
+    padding-left: 55px;
+    padding-bottom: 60px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.big-list{
+    list-style-type: none;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.little-list{
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.check{
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 0 3px;
+    color: green;
+}
+
+.cross{
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 0 3px;
+    color: red;
+}
+
+
+/* ETICHETTE COLORATE */
+
+
+.blu{
+    background-color: rgb(54, 149, 204);
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.viola{
+    background-color: rgb(160, 115, 212);
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.verde{
+    background-color: rgb(84, 199, 56);
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.arancione{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.verdino{
+    background-color: rgb(116, 219, 116);
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.rosa{
+    background-color: rgb(206, 89, 180);
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 12px;
 }
